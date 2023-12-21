@@ -5,6 +5,7 @@ function changeTag()
 		tag.remove();
 		let ele=document.createElement("h1");
 		ele.innerText="Entered Metaverse";
+		ele.id="status";
 		enterBtn.before(ele);
 		
 	}
